@@ -1,0 +1,71 @@
+:root {
+    --text-color: #33b210;
+    --link-color: #030018;
+    --background-color: #FDF5E7;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes fade {
+    0% {opacity: 1;}
+    33% {opacity: 0;}
+    67% {opacity: 0;}
+    100% {opacity: 1;}
+}
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    object-fit: cover;
+    animation: fade 9s ease-in-out infinite alternate;
+}
+
+img:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+img:nth-of-type(2) {
+    animation-delay: 3s;
+}
+
+img:nth-of-type(3) {
+    animation-delay: 6s;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+/* NAVBAR STYLES */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    height: 80px;
+}
+nav .left a {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+nav .right a {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: bold;
+}
