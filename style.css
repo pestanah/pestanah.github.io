@@ -91,5 +91,5 @@ img:nth-of-type(3) {
 
 .about-me h1 {
     font-size: 60px;
-    margin-bottom: 20px;
+    padding: 20px 40px;
 }
