@@ -18,7 +18,7 @@
 }
 img {
     width: 100%;
-    height: auto;
+    height: 60%;
     position: absolute;
     object-fit: cover;
     animation: fade 9s ease-in-out infinite alternate;
