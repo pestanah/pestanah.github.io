@@ -93,3 +93,9 @@ img:nth-of-type(3) {
     font-size: 45px;
     padding: 20px 40px;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
