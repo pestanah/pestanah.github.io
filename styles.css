@@ -1,3 +1,4 @@
+/*GENERAL DOCUMENT FORMATTING*/
 :root {
     --text-color: #33b210;
     --link-color: #030018;
@@ -9,36 +10,8 @@
     box-sizing: border-box;
 }
 
-
-@keyframes fade {
-    0% {opacity: 1;}
-    33% {opacity: 0;}
-    67% {opacity: 0;}
-    100% {opacity: 1;}
-}
-img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    object-fit: cover;
-    animation: fade 9s ease-in-out infinite alternate;
-}
-
-img:nth-of-type(1) {
-    animation-delay: 0s;
-}
-
-img:nth-of-type(2) {
-    animation-delay: 3s;
-}
-
-img:nth-of-type(3) {
-    animation-delay: 6s;
-}
-
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -68,4 +41,49 @@ nav .right a {
     font-size: 18px;
     color: var(--text-color);
     font-weight: bold;
+}
+
+/* IMG CAROUSEL */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top:0%;
+    left:0%;
+    animation: fade 9s ease-in-out infinite alternate;
+    margin-bottom: 20px;
+}
+
+img:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+img:nth-of-type(2) {
+    animation-delay: 3s;
+}
+
+img:nth-of-type(3) {
+    animation-delay: 6s;
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    33% {opacity: 0;}
+    67% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* ABOUT ME SECTION */
+.about-me .target text{
+    padding-left: 50px;
+    text-align: center;
 }
