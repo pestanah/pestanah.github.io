@@ -85,12 +85,14 @@ img:nth-of-type(3) {
 
 .about-me-section {
     display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     padding: 50px 25px;
     gap: 25px;
 }
+
 .about-me {
     font-size: 45px;
     justify-content: left;
@@ -98,9 +100,8 @@ img:nth-of-type(3) {
 }
 
 .about-me-text {
-    width: 75%;
     display: flex;
-    justify-content: right;
+    flex: 1 1 500px;
     font-size: 20px;
 }
 .about-me-section .headshot {
@@ -112,6 +113,7 @@ img:nth-of-type(3) {
     height: auto;
     border-radius: 5px;
 }
+
 footer {
     font-style: italic;
     text-align: center;
