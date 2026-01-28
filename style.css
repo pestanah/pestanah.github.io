@@ -183,7 +183,7 @@ img:nth-of-type(3) {
   transition: .5s ease;
 }
 
-/*PROJECT IMAGES */
+/*PROJECT CARDS */
 
 .bloom img {
     width: 282px;
@@ -228,4 +228,37 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+}
+
+/* PROJECT PAGE STYLES */
+
+/* AIRSPACE PAGE */
+.airspace-text {
+    font-size: 20px;
+    text-align: center;
+}
+/* BLOOM PAGE */
+.bloom-text {
+    font-size: 20px;
+    text-align: center;
+}
+/* FILIGREE PAGE */
+.filigree-text {
+    font-size: 20px;
+    text-align: center;
+}
+/* OBJEKT PAGE */
+.objekt-text {
+    font-size: 20px;
+    text-align: center;
+}
+/*ORANGES PAGE */
+.oranges-text {
+    font-size: 20px;
+    text-align: center;
+}
+/*SOUNDS OF THE CITY PAGE */
+.sounds-text {
+    font-size: 20px;
+    text-align: center;
 }
