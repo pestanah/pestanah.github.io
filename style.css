@@ -2,7 +2,7 @@
 
 :root {
     --text-color: #33b210;
-    --link-color: #030018;
+    --link-color: #ff5900;
     --background-color: #FDF5E7;
 }
 * {
@@ -147,6 +147,8 @@ img:nth-of-type(3) {
     justify-content: flex-start;
     align-items: center;
     padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /*HOVER EFFECTS FOR PROJECT IMAGES*/
