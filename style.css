@@ -18,6 +18,7 @@ body {
     font-family: 'neue-haas-grotesk-display', sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
+    letter-spacing: 0.4px
 }
 a {
     text-decoration: none;
@@ -87,7 +88,7 @@ img:nth-of-type(3) {
     display: flex;
     flex-flow: row wrap;
     width: 100vw;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 50px 25px;
     gap: 25px;
@@ -114,6 +115,73 @@ img:nth-of-type(3) {
     border-radius: 5px;
 }
 
+/* PROJECT SECTION */
+.project-section-header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 25px;
+    gap: 25px;
+}
+
+.project-section-header {
+    font-size: 45px;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.project-text {
+    font-size : 20px;
+    justify-content: left;
+}
+
+.project-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 25px;
+}
+
+.bloom img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.filigree img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.objekt img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.sounds img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.airspace img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.oranges img {
+    width: 282px;
+    height: auto;
+    border-radius: 5px;
+}
+/* FOOTER STYLES */
 footer {
     font-style: italic;
     text-align: center;
