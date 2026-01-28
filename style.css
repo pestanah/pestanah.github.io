@@ -1,4 +1,5 @@
 /*GENERAL DOCUMENT FORMATTING*/
+
 :root {
     --text-color: #33b210;
     --link-color: #030018;
@@ -26,6 +27,7 @@ a {
 }
 
 /* NAVBAR STYLES */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -116,25 +118,26 @@ img:nth-of-type(3) {
 }
 
 /* PROJECT SECTION */
+
 .project-section-header {
     display: flex;
     flex-flow: row wrap;
     width: 100vw;
     justify-content: flex-start;
     align-items: center;
-    padding: 50px 25px;
+    padding: 0 0px 10px 25px;
     gap: 25px;
 }
 
 .project-section-header {
     font-size: 45px;
     justify-content: left;
-    margin-bottom: 10px;
 }
 
 .project-text {
     font-size : 20px;
     justify-content: left;
+    margin-bottom: 10px;
 }
 
 .project-gallery {
@@ -143,8 +146,42 @@ img:nth-of-type(3) {
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
-    padding: 50px 25px;
+    padding: 0 25px;
 }
+
+/*HOVER EFFECTS FOR PROJECT IMAGES*/
+
+.bloom:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.filigree:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.objekt:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.sounds:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.airspace:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.oranges:hover {
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+/*PROJECT IMAGES */
 
 .bloom img {
     width: 282px;
@@ -181,7 +218,9 @@ img:nth-of-type(3) {
     height: auto;
     border-radius: 5px;
 }
+
 /* FOOTER STYLES */
+
 footer {
     font-style: italic;
     text-align: center;
