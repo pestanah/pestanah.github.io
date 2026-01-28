@@ -192,68 +192,38 @@ img:nth-of-type(3) {
 
 /*PROJECT CARDS */
 
-.bloom {
-    min-width: 282px;
-    flex-shrink: 1;
-}
-
 .bloom img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
-}
-
-.filigree {
-    min-width: 282px;
-    flex-shrink: 1;
 }
 
 .filigree img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
-}
-
-.objekt {
-    min-width: 282px;
-    flex-shrink: 1;
 }
 
 .objekt img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
-}
-
-.sounds {
-    min-width: 282px;
-    flex-shrink: 1;
 }
 
 .sounds img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
-}
-
-.airspace {
-    min-width: 282px;
-    flex-shrink: 1;
 }
 
 .airspace img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
 }
 
-.oranges {
-    min-width: 282px;
-    flex-shrink: 1;
-}
-
 .oranges img {
-    width: 400px;
+    width: 282px;
     height: auto;
     border-radius: 5px;
 }
