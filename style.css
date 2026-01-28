@@ -151,6 +151,12 @@ img:nth-of-type(3) {
     font-weight: 600;
 }
 
+@media (max-width: 600px) {
+
+  .about-me-section, .about-me, .about-me-text, .project-gallery, .project-section-header {
+    justify-content: center;
+  }
+}
 /*HOVER EFFECTS FOR PROJECT IMAGES*/
 
 .bloom:hover {
