@@ -246,6 +246,21 @@ footer {
 }
 /* BLOOM PAGE */
 
+.bloom-info {
+    text-align: left;
+    padding: 0 25px;
+    margin-bottom: 10px;
+}
+
+
+.bloom-header {
+    font-size: 30px;
+}
+
+.bloom-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
 .bloom-photos {
     display: flex;
     flex-flow: row wrap;
